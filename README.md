@@ -22,6 +22,8 @@ const isLoopbackAddr = require('is-loopback-addr')
 console.log(isLoopbackAddr('127.0.0.1')) // true
 console.log(isLoopbackAddr('192.168.0.1')) // false
 console.log(isLoopbackAddr('22.2.0.1')) // false
+console.log(isLoopbackAddr('::1')) // true
+console.log(isLoopbackAddr('2001:8a0:7ac5:4201:3ac9:86ff:fe31:7095')) // false
 ```
 
 ## Contribute
