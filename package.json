@@ -14,6 +14,10 @@
     "release-major": "aegir release -t node -t browser --type major --docs",
     "build": "aegir build"
   },
+  "files": [
+    "src",
+    "dist"
+  ],
   "license": "MIT",
   "devDependencies": {
     "aegir": "^27.0.0"
