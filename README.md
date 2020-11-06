@@ -1,6 +1,6 @@
 # is-loopback-addr
 
-[![Build Status](https://travis-ci.org/vasco-santos/is-loopback-addr.svg?branch=master)](https://travis-ci.org/vasco-santos/is-loopback-addr)
+[![Build Status](https://travis-ci.org/vasco-santos/is-loopback-addr.svg?branch=main)](https://travis-ci.org/vasco-santos/is-loopback-addr)
 [![dependencies Status](https://david-dm.org/vasco-santos/is-loopback-addr/status.svg)](https://david-dm.org/vasco-santos/is-loopback-addr)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![Downloads](https://img.shields.io/npm/dm/is-loopback-addr.svg)](https://www.npmjs.com/package/is-loopback-addr)
