@@ -5,6 +5,8 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![Downloads](https://img.shields.io/npm/dm/is-loopback-addr.svg)](https://www.npmjs.com/package/is-loopback-addr)
 [![Minzipped size](https://badgen.net/bundlephobia/minzip/is-loopback-addr)](https://bundlephobia.com/result?p=is-loopback-addr)
+[![codecov](https://img.shields.io/codecov/c/github/vasco-santos/is-loopback-addr.svg?style=flat-square)](https://codecov.io/gh/vasco-santos/is-loopback-addr)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/vasco-santos/is-loopback-addr/ci?label=ci&style=flat-square)](https://github.com/vasco-santos/is-loopback-addr/actions?query=branch%3Amaster+workflow%3Aci+)
 
 > Check if a IP address is a loopback address
 
