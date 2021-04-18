@@ -2,7 +2,7 @@
   "name": "is-loopback-addr",
   "version": "1.0.1",
   "description": "Check if a IP address is a loopback address",
-  "main": "index.js",
+  "main": "src/index.js",
   "author": "Vasco Santos",
   "scripts": {
     "test": "aegir test -t node -t browser",
@@ -20,7 +20,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "aegir": "^30.0.1"
+    "aegir": "^33.1.0"
   },
   "contributors": [
     "Vasco Santos <vasco.santos@ua.pt>"
