@@ -20,7 +20,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "aegir": "^33.1.0"
+    "aegir": "^34.0.2"
   },
   "contributors": [
     "Vasco Santos <vasco.santos@ua.pt>"
