@@ -36,6 +36,8 @@ jobs:
       - uses: ipfs/aegir/actions/cache-node-modules@master
       - run: npm run --if-present test:node
       - uses: codecov/codecov-action@v2.1.0
+        with:
+          files: ./.nyc_output/*.json
 
   test-chrome:
     needs: check
@@ -48,6 +50,8 @@ jobs:
       - uses: ipfs/aegir/actions/cache-node-modules@master
       - run: npm run --if-present test:chrome
       - uses: codecov/codecov-action@v2.1.0
+        with:
+          files: ./.nyc_output/*.json
 
   test-chrome-webworker:
     needs: check
@@ -60,6 +64,8 @@ jobs:
       - uses: ipfs/aegir/actions/cache-node-modules@master
       - run: npm run --if-present test:chrome-webworker
       - uses: codecov/codecov-action@v2.1.0
+        with:
+          files: ./.nyc_output/*.json
 
   test-firefox:
     needs: check
@@ -72,6 +78,8 @@ jobs:
       - uses: ipfs/aegir/actions/cache-node-modules@master
       - run: npm run --if-present test:firefox
       - uses: codecov/codecov-action@v2.1.0
+        with:
+          files: ./.nyc_output/*.json
 
   test-firefox-webworker:
     needs: check
@@ -84,6 +92,8 @@ jobs:
       - uses: ipfs/aegir/actions/cache-node-modules@master
       - run: npm run --if-present test:firefox-webworker
       - uses: codecov/codecov-action@v2.1.0
+        with:
+          files: ./.nyc_output/*.json
 
   test-electron-main:
     needs: check
@@ -96,6 +106,8 @@ jobs:
       - uses: ipfs/aegir/actions/cache-node-modules@master
       - run: npx xvfb-maybe npm run --if-present test:electron-main
       - uses: codecov/codecov-action@v2.1.0
+        with:
+          files: ./.nyc_output/*.json
 
   test-electron-renderer:
     needs: check
@@ -108,6 +120,8 @@ jobs:
       - uses: ipfs/aegir/actions/cache-node-modules@master
       - run: npx xvfb-maybe npm run --if-present test:electron-renderer
       - uses: codecov/codecov-action@v2.1.0
+        with:
+          files: ./.nyc_output/*.json
 
   release:
     needs: [test-node, test-chrome, test-chrome-webworker, test-firefox, test-firefox-webworker, test-electron-main, test-electron-renderer]
