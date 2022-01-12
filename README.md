@@ -1,6 +1,6 @@
 # is-loopback-addr
 
-[![Build Status](https://github.com/vasco-santos/is-loopback-addr/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/vasco-santos/is-loopback-addr/actions/workflows/main.yml)
+[![Build Status](https://github.com/vasco-santos/is-loopback-addr/actions/workflows/js-test-and-release.yml/badge.svg?branch=main)](https://github.com/vasco-santos/is-loopback-addr/actions/workflows/js-test-and-release.yml)
 [![dependencies Status](https://david-dm.org/vasco-santos/is-loopback-addr/status.svg)](https://david-dm.org/vasco-santos/is-loopback-addr)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![Downloads](https://img.shields.io/npm/dm/is-loopback-addr.svg)](https://www.npmjs.com/package/is-loopback-addr)
