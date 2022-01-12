@@ -1,3 +1,10 @@
+### [2.0.1](https://github.com/vasco-santos/is-loopback-addr/compare/v2.0.0...v2.0.1) (2022-01-12)
+
+
+### Trivial Changes
+
+* update build script ([#42](https://github.com/vasco-santos/is-loopback-addr/issues/42)) ([53dc0bb](https://github.com/vasco-santos/is-loopback-addr/commit/53dc0bb1eb4b20ecdd200acec6b04b68eea1c0d4))
+
 ## [2.0.0](https://github.com/vasco-santos/is-loopback-addr/compare/v1.0.1...v2.0.0) (2022-01-12)
 
 
