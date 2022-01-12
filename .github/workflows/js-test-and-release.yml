@@ -38,6 +38,7 @@ jobs:
       - uses: codecov/codecov-action@v2.1.0
         with:
           directory: ./.nyc_output
+          flags: node
 
   test-chrome:
     needs: check
@@ -52,6 +53,7 @@ jobs:
       - uses: codecov/codecov-action@v2.1.0
         with:
           directory: ./.nyc_output
+          flags: chrome
 
   test-chrome-webworker:
     needs: check
@@ -66,6 +68,7 @@ jobs:
       - uses: codecov/codecov-action@v2.1.0
         with:
           directory: ./.nyc_output
+          flags: chrome-webworker
 
   test-firefox:
     needs: check
@@ -80,6 +83,7 @@ jobs:
       - uses: codecov/codecov-action@v2.1.0
         with:
           directory: ./.nyc_output
+          flags: firefox
 
   test-firefox-webworker:
     needs: check
@@ -94,6 +98,7 @@ jobs:
       - uses: codecov/codecov-action@v2.1.0
         with:
           directory: ./.nyc_output
+          flags: firefox-webworker
 
   test-electron-main:
     needs: check
@@ -108,6 +113,7 @@ jobs:
       - uses: codecov/codecov-action@v2.1.0
         with:
           directory: ./.nyc_output
+          flags: electron-main
 
   test-electron-renderer:
     needs: check
@@ -122,6 +128,7 @@ jobs:
       - uses: codecov/codecov-action@v2.1.0
         with:
           directory: ./.nyc_output
+          flags: electron-renderer
 
   release:
     needs: [test-node, test-chrome, test-chrome-webworker, test-firefox, test-firefox-webworker, test-electron-main, test-electron-renderer]
