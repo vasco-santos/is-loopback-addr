@@ -1,12 +1,11 @@
 # is-loopback-addr
 
-[![Build Status](https://travis-ci.org/vasco-santos/is-loopback-addr.svg?branch=main)](https://travis-ci.org/vasco-santos/is-loopback-addr)
+[![Build Status](https://github.com/vasco-santos/is-loopback-addr/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/vasco-santos/is-loopback-addr/actions/workflows/main.yml)
 [![dependencies Status](https://david-dm.org/vasco-santos/is-loopback-addr/status.svg)](https://david-dm.org/vasco-santos/is-loopback-addr)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![Downloads](https://img.shields.io/npm/dm/is-loopback-addr.svg)](https://www.npmjs.com/package/is-loopback-addr)
 [![Minzipped size](https://badgen.net/bundlephobia/minzip/is-loopback-addr)](https://bundlephobia.com/result?p=is-loopback-addr)
 [![codecov](https://img.shields.io/codecov/c/github/vasco-santos/is-loopback-addr.svg?style=flat-square)](https://codecov.io/gh/vasco-santos/is-loopback-addr)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/vasco-santos/is-loopback-addr/ci?label=ci&style=flat-square)](https://github.com/vasco-santos/is-loopback-addr/actions?query=branch%3Amaster+workflow%3Aci+)
 
 > Check if a IP address is a loopback address
 
@@ -21,7 +20,7 @@ npm i is-loopback-addr
 ## Usage
 
 ```js
-const isLoopbackAddr = require('is-loopback-addr')
+import { isLoopbackAddr } from 'is-loopback-addr'
 
 console.log(isLoopbackAddr('127.0.0.1')) // true
 console.log(isLoopbackAddr('192.168.0.1')) // false
