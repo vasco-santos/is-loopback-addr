@@ -1,3 +1,11 @@
+### [2.0.2](https://github.com/vasco-santos/is-loopback-addr/compare/v2.0.1...v2.0.2) (2023-08-14)
+
+
+### Trivial Changes
+
+* add or force update .github/workflows/js-test-and-release.yml ([#101](https://github.com/vasco-santos/is-loopback-addr/issues/101)) ([743d5b9](https://github.com/vasco-santos/is-loopback-addr/commit/743d5b98410791dcfbd52277ad79419235e1ce65))
+* delete templates [skip ci] ([#100](https://github.com/vasco-santos/is-loopback-addr/issues/100)) ([5d77ba9](https://github.com/vasco-santos/is-loopback-addr/commit/5d77ba9155c59afba48b73942731f2f3b1c79f70))
+
 ### [2.0.1](https://github.com/vasco-santos/is-loopback-addr/compare/v2.0.0...v2.0.1) (2022-01-12)
 
 
